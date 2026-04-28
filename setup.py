@@ -178,12 +178,11 @@ setup(
         # on compatible version of iopath.
         "fvcore>=0.1.5,<0.1.6",  # required like this to make it pip installable
         "iopath>=0.1.7,<0.1.10",
-        "future",  # used by caffe2
         "pydot",  # used to save caffe2 SVGs
         "dataclasses; python_version<'3.7'",
         "omegaconf>=2.1",
         "hydra-core>=1.1",
-        "black==21.4b2",
+        "black",
         # If a new dependency is required at import time (in addition to runtime), it
         # probably needs to exist in docs/requirements.txt, or as a mock in docs/conf.py
     ],
